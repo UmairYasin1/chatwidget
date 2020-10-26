@@ -1,14 +1,22 @@
 
-//document.write('<link href="'+ link +'assets/css/fonts.css" rel="stylesheet" async>');
-//document.write('<link href="'+ link +'assets/css/style.css" rel="stylesheet" async>');
-//document.write('<link href="'+ link +'assets/css/font-awesome.min.css" rel="stylesheet prefetch" async>');
-//document.write('<link href="'+ link +'assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" async>');
-document.write('<script src="'+ link +'assets/js/bootstrap.min.js" async></scr'+'ipt>');
-document.write('<script src="'+ link +'assets/js/jquery.min.js" async></scr'+'ipt>');
-// document.write('<link href="'+ link +'assets/css/bootstrap2.min.css" rel="stylesheet" id="bootstrap-css" async>');
-document.write('<script src="'+ link +'assets/js/bootstrap2.min.js" async></scr'+'ipt>');
-document.write('<script src="'+ link +'assets/js/jquery-1.11.1.min.js" async></scr'+'ipt>');
+// //document.write('<link href="'+ link +'assets/css/fonts.css" rel="stylesheet" async>');
+// //document.write('<link href="'+ link +'assets/css/style.css" rel="stylesheet" async>');
+// //document.write('<link href="'+ link +'assets/css/font-awesome.min.css" rel="stylesheet prefetch" async>');
+// //document.write('<link href="'+ link +'assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" async>');
+// document.write('<script src="'+ link +'assets/js/bootstrap.min.js" async></scr'+'ipt>');
+// document.write('<script src="'+ link +'assets/js/jquery.min.js" async></scr'+'ipt>');
+// // document.write('<link href="'+ link +'assets/css/bootstrap2.min.css" rel="stylesheet" id="bootstrap-css" async>');
+// document.write('<script src="'+ link +'assets/js/bootstrap2.min.js" async></scr'+'ipt>');
+// document.write('<script src="'+ link +'assets/js/jquery-1.11.1.min.js" async></scr'+'ipt>');
 document.write('<script src="'+ link +'assets/js/jquery-2.2.4.min.js" async></scr'+'ipt>');
+
+
+
+var link = document.createElement("link");
+link.setAttribute("rel", "stylesheet");
+link.setAttribute("type", "text/css");
+link.setAttribute("href", "https://codemirror.net/lib/codemirror.css");
+document.getElementsByTagName("head")[0].appendChild(link);
 
 var link = "https://chat-widget-2.glitch.me/";
 
