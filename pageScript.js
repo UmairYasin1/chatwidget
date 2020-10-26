@@ -1,6 +1,6 @@
-document.write('<script type="text/javascript" src="'+ link +'WidgetCreate.js" async></scr'+'ipt>');
-    document.write('<link href="'+ link +'assets/css/fonts.css" rel="stylesheet" async>');
-    document.write('<link href="'+ link +'assets/css/style.css" rel="stylesheet" async>');
+
+document.write('<link href="'+ link +'assets/css/fonts.css" rel="stylesheet" async>');
+document.write('<link href="'+ link +'assets/css/style.css" rel="stylesheet" async>');
     document.write('<link href="'+ link +'assets/css/font-awesome.min.css" rel="stylesheet prefetch" async>');
     document.write('<link href="'+ link +'assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" async>');
     document.write('<script src="'+ link +'assets/js/bootstrap.min.js" async></scr'+'ipt>');
