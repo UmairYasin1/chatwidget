@@ -15,10 +15,10 @@
 // console.log(wHTML);
 //     document.getElementById('ChatWidget').innerHTML = wHTML;
 // }
-
+var link = "https://chat-widget-2.glitch.me/";
 var wHTML = "";
     wHTML += ('<div id="frame">'); //open chat frame tag
-    wHTML += ('<div class="content"><div class="contact-profile"><img src="assets/images/userimg.jpg" alt="" /><p><span class="AgentName">Harvey Specter</span>');
+    wHTML += ('<div class="content"><div class="contact-profile"><img src="'+link+'assets/images/userimg.jpg" alt="" /><p><span class="AgentName">Harvey Specter</span>');
     wHTML += ('<span class="AgentText">Questions? we are here to help</span></p><a href="javascript:;" class="minimizeChat2">');
     wHTML += ('<i class="fa fa-window-minimize" aria-hidden="true"></i></a>');
     wHTML += ('</div><div class="messages"><ul><li class="sent"><img src="assets/images/userimg.jpg" alt="" /><p>How may i help you?</p></li>');
