@@ -8,7 +8,7 @@
 // // document.write('<link href="'+ link +'assets/css/bootstrap2.min.css" rel="stylesheet" id="bootstrap-css" async>');
 // document.write('<script src="'+ link +'assets/js/bootstrap2.min.js" async></scr'+'ipt>');
 // document.write('<script src="'+ link +'assets/js/jquery-1.11.1.min.js" async></scr'+'ipt>');
-document.write('<script src="'+ link +'assets/js/jquery-2.2.4.min.js" async></scr'+'ipt>');
+
 
 
 
