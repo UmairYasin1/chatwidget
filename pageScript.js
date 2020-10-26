@@ -1,3 +1,4 @@
+var link = "https://chat-widget-2.glitch.me/";
 
 $(".messages").animate({ scrollTop: $(document).height() }, "fast");
 
@@ -38,7 +39,7 @@ function newMessage() {
 	if($.trim(message) == '') {
 		return false;
 	}
-	$('<li class="replies"><img src="assets/images/userimg.jpg" alt="" /><p>' + message + '</p></li>').appendTo($('.messages ul'));
+	$('<li class="replies"><img src="'+link+'assets/images/userimg.jpg" alt="" /><p>' + message + '</p></li>').appendTo($('.messages ul'));
 	$('.message-input input').val(null);
 	$('.contact.active .preview').html('<span>You: </span>' + message);
 	$(".messages").animate({ scrollTop: $(document).height() }, "fast");
